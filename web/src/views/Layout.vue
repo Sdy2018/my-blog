@@ -10,7 +10,7 @@
 				<div class="hamburger_menu_item"></div>
 			</div>
 		</header>
-		<div @click.stop.prevent="sileMenu=false">
+		<div @click="sileMenu=false">
 			<router-view ></router-view>
 			<footer>
 				<span>MyBlog ©2019 Created By sdy2018</span>
@@ -44,7 +44,6 @@
 	    },
 		methods:{
 			goHomePage(){
-				console.log(this.$route.name)
 				if(this.$route.name!=="home"){
 					this.$router.push({
 						name:'home',

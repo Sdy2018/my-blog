@@ -8,7 +8,7 @@ module.exports = {
 		proxy: {
 			//使用/proxy代理请求地址
 			'/proxy': {
-				target: 'http://localhost:3002', // 要请求的地址
+				target: 'http://localhost:3000', // 要请求的地址
 				ws: true, // 要代理 websockets
 				changeOrigin: true, //是否跨域
 				pathRewrite: {

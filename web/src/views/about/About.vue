@@ -1,7 +1,7 @@
 <template>
   <div class="about">
 	  <div class="aboout_box">
-		  <img class="avatar" width="200px"  src="../../../public/avatar.png" alt="">
+		  <img class="avatar" width="200px" height="auto"  src="../../../public/avatar.png" alt="">
 		  <div class="info">
 			  <div style="margin-bottom: 20px;">性别:男</div>
 			  <div style="margin-bottom: 20px;min-width: 140px;">兴趣爱好:广泛</div>
@@ -9,7 +9,6 @@
 	  </div>
   </div>
 </template>
-
 <style scoped lang="scss">
 	@media screen and (max-width: 500px){
 		.about{
@@ -24,9 +23,8 @@
 	@media screen and (min-width:500px) and (max-width: 1000px){
 		.about{
 			.aboout_box{
-				box-shadow: none !important;
 				.info{
-					font-size: 13px !important;
+					font-size: 12px !important;
 				}
 			}
 		}
